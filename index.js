@@ -2,7 +2,6 @@ const express = require('express');
 const fs = require('fs');
 const app = express();
 
-// Assuming data is a parsed db.json
 let data = require('./db.json');
 
 // Dynamically create routes based on db.json keys
